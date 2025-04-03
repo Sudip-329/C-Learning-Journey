@@ -2,23 +2,14 @@
 #include<stdio.h>
 int main()
 {
-    int first_329 = 0, second_329 = 1, count_329 = 0, fibo_329,n;
+    int first_329 = 0, second_329 = 1,c_329,n_329;
     printf("Enter total number : ");
-    scanf("%d",&n);
-    while(count_329<n)
-    {
-        if(count_329<=1)                      //Name : Sudip Chakrabarty
-        {                                     
-        fibo_329 = count_329;                 
-        }                                     
-        else
+    scanf("%d",&n_329);
+    for(c_329=0; c_329<=n_329; c_329 = first_329 + second_329)
         { 
-            fibo_329 = first_329 + second_329;
+            printf("%d ",c_329);
             first_329 = second_329;
-            second_329 = fibo_329;
+            second_329 = c_329;
         }
-        printf("%d ",fibo_329);
-        count_329++;
-    }
-return 0;
+    return 0;
 }
