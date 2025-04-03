@@ -1,16 +1,11 @@
-//Name : Sudip Chakrabarty
-//Roll:21053329   
-//Branch: CSE
-//Kalinga Institute of Industrial Technology. 
-
-//It is a c code to print a given string in an alphabetical order
+//to print a given string in an alphabetical order
 #include<stdio.h>
 #include<string.h>
 int main()
 {
     char str_[100],temp_;
     printf("\nEnter a String: ");
-    gets(str_);       
+    gets(str_);                        //Name : Sudip Chakrabarty     Roll:21053    Branch: CSE
     int i_,j_,len_;
     len_=strlen(str_);
     for ( i_ = 0; i_ <len_; i_++)
