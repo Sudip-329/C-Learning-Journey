@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int x = 5;
+    
+    printf("Value of x = %d\n",x);
+    printf("Address of x = %u\n",&x);
+    printf("Address of x = %x\n",&x);//hexa value
+    
+}
